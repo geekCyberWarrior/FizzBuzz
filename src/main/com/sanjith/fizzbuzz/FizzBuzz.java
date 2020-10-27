@@ -3,7 +3,7 @@ package com.sanjith.fizzbuzz;
 public class FizzBuzz {
     public String convert(int toConvertToFizzBuzz) {
 
-    	return "1";
+        return String.valueOf(toConvertToFizzBuzz);
 
     }
 }
