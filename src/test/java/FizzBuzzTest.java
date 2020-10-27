@@ -22,4 +22,13 @@ public class FizzBuzz {
         Assert.assertEquals("Fizz", fizzBuzz.convert(3));
 
     }
+
+    @Test
+    public void fizzBuzzConvertorMultiplesOfFive(){
+
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+
+        Assert.assertEquals("Buzz", fizzBuzz.convert(5));
+
+    }
 }
